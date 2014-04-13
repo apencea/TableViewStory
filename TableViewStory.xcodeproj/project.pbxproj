@@ -14,13 +14,20 @@
 		A84CAF5918F881870045BD34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A84CAF5818F881870045BD34 /* main.m */; };
 		A84CAF5D18F881870045BD34 /* TVSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A84CAF5C18F881870045BD34 /* TVSAppDelegate.m */; };
 		A84CAF6018F881870045BD34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84CAF5E18F881870045BD34 /* Main.storyboard */; };
-		A84CAF6318F881870045BD34 /* TVSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84CAF6218F881870045BD34 /* TVSViewController.m */; };
 		A84CAF6518F881870045BD34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A84CAF6418F881870045BD34 /* Images.xcassets */; };
 		A84CAF6C18F881880045BD34 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A84CAF6B18F881880045BD34 /* XCTest.framework */; };
 		A84CAF6D18F881880045BD34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A84CAF4C18F881870045BD34 /* Foundation.framework */; };
 		A84CAF6E18F881880045BD34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A84CAF5018F881870045BD34 /* UIKit.framework */; };
 		A84CAF7618F881880045BD34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A84CAF7418F881880045BD34 /* InfoPlist.strings */; };
 		A84CAF7818F881880045BD34 /* TableViewStoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84CAF7718F881880045BD34 /* TableViewStoryTests.m */; };
+		A84CAF8318F884040045BD34 /* CarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84CAF8218F884040045BD34 /* CarTableViewController.m */; };
+		A84CAF8618F884700045BD34 /* CarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A84CAF8518F884700045BD34 /* CarTableViewCell.m */; };
+		A84CAF8C18F921970045BD34 /* chevy_volt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A84CAF8718F921970045BD34 /* chevy_volt.jpg */; };
+		A84CAF8D18F921970045BD34 /* mini_clubman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A84CAF8818F921970045BD34 /* mini_clubman.jpg */; };
+		A84CAF8E18F921970045BD34 /* smart_fortwo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A84CAF8918F921970045BD34 /* smart_fortwo.jpg */; };
+		A84CAF8F18F921970045BD34 /* toyota_venza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A84CAF8A18F921970045BD34 /* toyota_venza.jpg */; };
+		A84CAF9018F921970045BD34 /* volvo_s60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A84CAF8B18F921970045BD34 /* volvo_s60.jpg */; };
+		A84CAF9318F97A9A0045BD34 /* CarDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84CAF9218F97A9A0045BD34 /* CarDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +52,23 @@
 		A84CAF5B18F881870045BD34 /* TVSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVSAppDelegate.h; sourceTree = "<group>"; };
 		A84CAF5C18F881870045BD34 /* TVSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVSAppDelegate.m; sourceTree = "<group>"; };
 		A84CAF5F18F881870045BD34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A84CAF6118F881870045BD34 /* TVSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVSViewController.h; sourceTree = "<group>"; };
-		A84CAF6218F881870045BD34 /* TVSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVSViewController.m; sourceTree = "<group>"; };
 		A84CAF6418F881870045BD34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A84CAF6A18F881880045BD34 /* TableViewStoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewStoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84CAF6B18F881880045BD34 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A84CAF7318F881880045BD34 /* TableViewStoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewStoryTests-Info.plist"; sourceTree = "<group>"; };
 		A84CAF7518F881880045BD34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A84CAF7718F881880045BD34 /* TableViewStoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewStoryTests.m; sourceTree = "<group>"; };
+		A84CAF8118F884040045BD34 /* CarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CarTableViewController.h; path = ../CarTableViewController.h; sourceTree = "<group>"; };
+		A84CAF8218F884040045BD34 /* CarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CarTableViewController.m; path = ../CarTableViewController.m; sourceTree = "<group>"; };
+		A84CAF8418F884700045BD34 /* CarTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CarTableViewCell.h; path = ../CarTableViewCell.h; sourceTree = "<group>"; };
+		A84CAF8518F884700045BD34 /* CarTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CarTableViewCell.m; path = ../CarTableViewCell.m; sourceTree = "<group>"; };
+		A84CAF8718F921970045BD34 /* chevy_volt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chevy_volt.jpg; sourceTree = "<group>"; };
+		A84CAF8818F921970045BD34 /* mini_clubman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mini_clubman.jpg; sourceTree = "<group>"; };
+		A84CAF8918F921970045BD34 /* smart_fortwo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smart_fortwo.jpg; sourceTree = "<group>"; };
+		A84CAF8A18F921970045BD34 /* toyota_venza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toyota_venza.jpg; sourceTree = "<group>"; };
+		A84CAF8B18F921970045BD34 /* volvo_s60.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = volvo_s60.jpg; sourceTree = "<group>"; };
+		A84CAF9118F97A9A0045BD34 /* CarDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarDetailViewController.h; sourceTree = "<group>"; };
+		A84CAF9218F97A9A0045BD34 /* CarDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,13 +128,17 @@
 		A84CAF5218F881870045BD34 /* TableViewStory */ = {
 			isa = PBXGroup;
 			children = (
+				A84CAF8118F884040045BD34 /* CarTableViewController.h */,
+				A84CAF8218F884040045BD34 /* CarTableViewController.m */,
+				A84CAF8418F884700045BD34 /* CarTableViewCell.h */,
+				A84CAF8518F884700045BD34 /* CarTableViewCell.m */,
 				A84CAF5B18F881870045BD34 /* TVSAppDelegate.h */,
 				A84CAF5C18F881870045BD34 /* TVSAppDelegate.m */,
 				A84CAF5E18F881870045BD34 /* Main.storyboard */,
-				A84CAF6118F881870045BD34 /* TVSViewController.h */,
-				A84CAF6218F881870045BD34 /* TVSViewController.m */,
 				A84CAF6418F881870045BD34 /* Images.xcassets */,
 				A84CAF5318F881870045BD34 /* Supporting Files */,
+				A84CAF9118F97A9A0045BD34 /* CarDetailViewController.h */,
+				A84CAF9218F97A9A0045BD34 /* CarDetailViewController.m */,
 			);
 			path = TableViewStory;
 			sourceTree = "<group>";
@@ -126,6 +146,11 @@
 		A84CAF5318F881870045BD34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A84CAF8718F921970045BD34 /* chevy_volt.jpg */,
+				A84CAF8818F921970045BD34 /* mini_clubman.jpg */,
+				A84CAF8918F921970045BD34 /* smart_fortwo.jpg */,
+				A84CAF8A18F921970045BD34 /* toyota_venza.jpg */,
+				A84CAF8B18F921970045BD34 /* volvo_s60.jpg */,
 				A84CAF5418F881870045BD34 /* TableViewStory-Info.plist */,
 				A84CAF5518F881870045BD34 /* InfoPlist.strings */,
 				A84CAF5818F881870045BD34 /* main.m */,
@@ -229,7 +254,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A84CAF8C18F921970045BD34 /* chevy_volt.jpg in Resources */,
 				A84CAF6518F881870045BD34 /* Images.xcassets in Resources */,
+				A84CAF9018F921970045BD34 /* volvo_s60.jpg in Resources */,
+				A84CAF8E18F921970045BD34 /* smart_fortwo.jpg in Resources */,
+				A84CAF8F18F921970045BD34 /* toyota_venza.jpg in Resources */,
+				A84CAF8D18F921970045BD34 /* mini_clubman.jpg in Resources */,
 				A84CAF5718F881870045BD34 /* InfoPlist.strings in Resources */,
 				A84CAF6018F881870045BD34 /* Main.storyboard in Resources */,
 			);
@@ -250,9 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A84CAF6318F881870045BD34 /* TVSViewController.m in Sources */,
 				A84CAF5D18F881870045BD34 /* TVSAppDelegate.m in Sources */,
+				A84CAF9318F97A9A0045BD34 /* CarDetailViewController.m in Sources */,
 				A84CAF5918F881870045BD34 /* main.m in Sources */,
+				A84CAF8618F884700045BD34 /* CarTableViewCell.m in Sources */,
+				A84CAF8318F884040045BD34 /* CarTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
